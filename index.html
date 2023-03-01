@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML/css 実践</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rest.css">
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="#service">サービス</a></li>
+          <li><a href="#news">ニュース</a></li>
+          <li><a href="#price">価格</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="top">
+        <img src="img/top.png" class="topimg">
+        <h1 id="maintitle">メンズ脱毛サロン！</h1>
+      </div>
+    </header>
+    <main>
+      <!--サービス-->
+      <section id="service">
+        <h2 class="title">サービス</h2>
+        <article class="service_detail">
+         <div class="left">
+           <img src="img/service.jpeg" class="serviceimg">
+         </div> 
+         <div class="right">
+          <h3>新春割引キャンペーン</h3>
+          <p>※以下条件のすべてを満たした場合に新春キャンペーンの適用となります。</p>
+          <ul>
+           <li>個人契約のお客さまであること</li>
+           <li>3回以上通うことができる方</li>
+           <li>成人した男性の方</li>
+          </ul>
+         </div> 
+        </article>
+      </section>
+      <!--ニュース-->
+      <section id="news">
+        <h2 class="title">ニュース</h2>
+        <div class="news_detail">
+         <ul class="newslist">
+          <li>2021/1/1 新年の挨拶</li>
+          <li>2020/12/31 年末年始の店舗休業案内</li>
+          <li>2020/8/23 お盆休みによる店舗の休業案内</li>
+         </ul>
+        </div> 
+      </section>
+      <!--価格-->
+      <section id="price">
+        <h2 class="title">価格</h2>
+        <div class="price_detail">
+         <table class="price_table">
+          <tr class>
+            <th>ー</th>
+            <th>プランA</th>
+            <th>プランB</th>
+          </tr>
+          <tr>
+            <td>入会金</td>
+            <td>10万円</td>
+            <td>15万円</td>
+          </tr>
+          <tr>
+            <td>料金</td>
+            <td>900円/月</td>
+            <td>1500円/月</td>
+          </tr>
+         </table>
+        </div> 
+      </section>
+      <!--お問い合わせ-->
+      <section id="contact">
+        <h2 class="title">お問い合わせ</h2>
+        <div class="contact_detail">
+          <form>
+           <div class="item">
+            <label for="name">氏名：</label>
+            <input type="text" name="name" class="textbox">
+           </div>
+           <div class="item">
+            <label for="email">メールアドレス：</label>
+            <input type="text" name="email" class="textbox">
+           </div>
+           <div class="item">
+            <label for="number">電話番号：</label>
+            <input type="text" name="number" class="textbox">
+           </div>
+           <div class="item_content">
+            <label for="content">内容：</label>
+            <textarea name="content" class="textbox_content"></textarea>
+           </div>
+           <div class="item_button">
+            <input type="submit" value="送信">
+           </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">©︎2021 CODESTSR All rights reserved.</p>
+    </footer>
+  </body>
+</html>
